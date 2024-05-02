@@ -12,3 +12,4 @@ class NumberTrivia extends Equatable {
   @override
   List<Object?> get props => [text, number];
 }
+
