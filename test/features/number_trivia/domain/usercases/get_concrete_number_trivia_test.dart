@@ -23,7 +23,6 @@ void main() {
   test('should get trivia for the number from the repository', 
   () async {
     // arrange
-    
    when(mockNumberTriviaRepository.getConcreteNumberTrivia(tNumber)) 
         .thenAnswer((_) async => const Right(tNumberTrivia));
     //  act
